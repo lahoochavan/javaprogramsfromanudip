@@ -1,0 +1,24 @@
+Answers for Thursday Lab(16th June 2022)
+Name : Lahoo P Chavan.
+
+
+
+4. Write a program to encrypt a grade by adding 8 to it. Also
+decrpyt it to show the corrent grade.
+
+
+public class typecastings {
+
+	public static void main(String[] args) {
+		char a = 'b';
+			// Encrypt
+		a = (char) (a+8);
+		System.out.println(a);
+
+			// Decrypt
+		a = (char)(a-8);
+		System.out.println(a);
+	}
+
+}
+

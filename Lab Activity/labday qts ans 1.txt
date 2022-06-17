@@ -1,0 +1,27 @@
+Answers for Thursday Lab(16th June 2022)
+Name : Lahoo P Chavan.
+
+
+
+
+2. Write a Java Program to print greatest of three numbers 
+using if else.
+
+
+public class ifelse {
+
+	public static void main(String[] args) {
+		
+		        int x = 86,  y= 83, z= 85;
+
+		        if( x >= y & x>= z)
+		            System.out.println(x + " is the largest number.");
+
+		        else if (y >=x  & y >= z)
+		            System.out.println(y + " is the largest number.");
+
+		        else
+		            System.out.println(z + " is the largest number.");
+	}
+
+}

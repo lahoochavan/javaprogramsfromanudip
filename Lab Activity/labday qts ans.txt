@@ -1,0 +1,21 @@
+Answers for Thursday Lab(16th June 2022)
+Name : Lahoo P Chavan.
+
+
+
+
+1. Write a Java Program to check given number is even or odd.
+
+
+public class ifstatement {
+
+	public static void main(String[] args) {
+		int n = 24;
+		if (n % 2 == 0) {
+			System.out.println("The number is even : "+ n);
+		 } else {
+			System.out.println("The number is odd : "+ n);
+		 }
+	}
+
+}
